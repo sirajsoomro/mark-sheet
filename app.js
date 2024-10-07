@@ -5,32 +5,32 @@ let chemistry = +prompt('Enter Sindhi marks');
 let urdu = +prompt('Enter english marks');
 
 let engDis = document.getElementById('english');
-engDis.innerText = english;
+engDis.innerText = english
 
 let mathDis = document.getElementById('math');
-mathDis.innerText = math;
+mathDis.innerText = math
 
 let scienceDis = document.getElementById('science');
-scienceDis.innerText = science;
+scienceDis.innerText = science
 
 let chemistryDis = document.getElementById('chemistry');
-chemistryDis.innerText = chemistry;
+chemistryDis.innerText = chemistry
 
 let urduDis = document.getElementById('urdu');
-urduDis.innerText = urdu;
+urduDis.innerText = urdu
 
 let total = english + math + science + chemistry + urdu;
 
 let displayTotal = document.getElementById('total');
-displayTotal.innerText = total;
+displayTotal.innerText = total
 
 let percent = total / 500 * 100;
 
-let percentDis = document.getElementById('percent');
+let percentDis = document.getElementById('percent')
 percentDis.innerText = percent;
 
-let gradeDis = document.getElementById('grade');
-gradeDis.innerText = grade;
+let gradeDis = document.getElementById('grade')
+gradeDis.innerText = grade
 
 if (percent >= 90) {
     grade.innerText = 'A1'
